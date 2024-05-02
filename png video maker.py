@@ -2,6 +2,8 @@ import cv2
 import os
 import re
 
+##by Buoysharkdog
+##PNG-to-MP4
 def upscale_image(image, scale_factor):
     return cv2.resize(image, (0, 0), fx=scale_factor, fy=scale_factor, interpolation=cv2.INTER_NEAREST)
 
